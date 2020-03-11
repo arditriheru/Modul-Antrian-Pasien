@@ -15,7 +15,7 @@
 		    <?php $loket="1";?>
 			<audio id="suarabel" src="rekaman/bell-bandara.mp3"></audio>
 			<audio id="suarabelnomorurut" src="rekaman/nomor-antrian.mp3"></audio>
-			<audio id="suarabelabjad" src="rekaman/b.mp3"></audio> 
+			<audio id="suarabelabjad" src="rekaman/d.mp3"></audio> 
 			<audio id="suarabelsuarabelloket" src="rekaman/ke-poli-anak.mp3"></audio>
 			<audio id="belas" src="rekaman/belas.mp3"></audio> 
 			<audio id="sebelas" src="rekaman/sebelas.mp3"></audio> 
@@ -76,7 +76,7 @@
 	            	<h2>Nomor Antrian</h2>
 	            </div><br>
 	            <div class="bs-example">
-	                <font size="10">B<?php echo $tcounter; ?></font><br>
+	                <font size="10">D<?php echo $tcounter; ?></font><br>
 	                <font size="6">Poli Anak</font><br><br>
 	            <form method="post" action="next-anak" role="form">
 					<a href="reset-anak" name="reset" 
